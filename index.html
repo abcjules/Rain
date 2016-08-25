@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>rain演唱会</title>
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/touch.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+
+    <style>
+        *{margin:0;padding:0;}
+        html,body{width:100%;height:100%;}
+
+        .hide{display: none;}
+        .page img{position: absolute;}
+
+        .page-1-1{width:100%;height:100%;background:url("images/rain_1.png") no-repeat left top;background-size: cover;}
+        .page-1-1 .img_1{width:100%;height:100%;}
+        .img_up{position:absolute;left:50%;top:88%;margin-left:-15px;width:30px;}
+
+        .page-2-1{width:100%;height:100%;background:url("images/rain.png") no-repeat left top;background-size: cover;}
+        .page-2-1 .img_1{width:24.2%;left:24%;top:8.9%;}
+        .page-2-1 .img_2{width:100%;top:4.5%;}
+        
+        .page-3-1{width:100%;height:100%;background:url("images/rain_bg.png") no-repeat left top;background-size: cover;}
+        .page-3-1 .img_1{width:24.2%;left:13%;top:10.04%;}
+        .page-3-1 .img_2{width:23.6%;left:38.4%;top:14.1%;}
+        .page-3-1 .img_4{width:23.6%;left:63.1%;top:7%;}
+        .page-3-1 .img_5{width:100%;bottom:0;}
+        .page-3-1 .img_6{width:16.3%;left:37.3%;bottom:32.4%;}
+
+        .page-4-1{width:100%;height:100%;background: url("images/rain_2bg.png") no-repeat left top;background-size: cover;}
+        .page-4-1 .img_1{width:72.2%;left:9.73%;top:9.3%;}
+        .page-4-1 .img_2{width:28.4%;right:25%;top:17.8%;}
+        .page-4-1 .img_3{width:30%;left:13.4%;top:30.7%;}
+        .page-4-1 .img_4{width:30%;right:13.4%;top:30.7%;}
+        .page-4-1 .img_5{width:30%;left:13.4%;bottom:12.7%;}
+        .page-4-1 .img_6{width:30%;right:13.4%;bottom:12.7%;}
+    </style>
+</head>
+<body>
+    <div class="page page-1-1">
+       <div class="wrap">
+           <img src="images/rain_1.png" class="img_1">
+           <img src="images/icon_up.png" class="img_up pt-page-moveIconUp">
+       </div>
+    </div>
+    <div class="page page-2-1">
+        <div class="wrap">
+            <img src="images/call.png" class="img_1 pt-page-moveFromTop pt-page-delay300 hide">
+            <img src="images/title_text.png" class="img_2 pt-page-moveFromLeft hide">
+            <img src="images/icon_up.png" class="img_up pt-page-moveIconUp">
+        </div>
+    </div>
+    <div class="page page-3-1">
+        <div class="wrap">
+            <img src="images/rain2_06.png" class="img_1 pt-page-moveFromTop hide">
+            <img src="images/rain2_09.png" class="img_2 pt-page-moveFromBottom hide">
+            <img src="images/rain2_03.png" class="img_4 pt-page-moveFromTop hide">
+            <img src="images/text_1.png" class="img_5 pt-page-moveFromLeft hide">
+            <img src="images/foot.png" class="img_6 hinge animated hide pt-page-delay400">
+            <img src="images/icon_up.png" class="img_up pt-page-moveIconUp">
+        </div>
+    </div>
+    <div class="page page-4-1">
+        <div class="wrap">
+            <img src="images/only.png" class="img_1 pt-page-moveFromLeft hide">
+            <img src="images/rain_2.png" class="img_2 flash animated pt-page-delay500 hide">
+            <!--<img src="images/icon_up.png" class="img_up pt-page-moveIconUp">-->
+            <img src="images/sh.png" class="img_3 zoomIn animated hide">
+            <img src="images/wh.png" class="img_4 zoomIn animated hide">
+            <img src="images/sy_03.png" class="img_5 zoomIn animated hide">
+            <img src="images/cs_05.png" class="img_6 zoomIn animated hide">
+        </div>
+    </div>
+</body>
+</html>
